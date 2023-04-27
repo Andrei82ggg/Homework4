@@ -53,5 +53,29 @@ public class Main {
             System.out.println("Если ребенок старше " + egeBaby + "лет, то он может кататься без сопровождения взрослого.");
         }
 
+<<<<<<< HEAD
+=======
+        int numberTickets = 50;
+        if (numberTickets >= 102) {
+            System.out.println("Вагон полностью забит");
+        } else {
+            if (numberTickets < 60) {
+                System.out.println("В вагоне есть сидячие места");
+            }
+            if (numberTickets > 60 && numberTickets < 102) {
+                System.out.println("В вагоне есть стоячие места");
+            }
+            int one = 8;
+            int two = 5;
+            int three = 17;
+            if (one > two) {
+                if (one > three) {
+                    System.out.println("Самое большое число: " + two);
+                } else if (three > one) {
+                    System.out.println("Самое большое число: " + three);
+                }
+            }
+        }
+>>>>>>> ab8ce19 (two)
     }
 }
