@@ -75,7 +75,5 @@ public class Main {
                     System.out.println("Самое большое число: " + three);
                 }
             }
-        }
->>>>>>> ab8ce19 (two)
     }
 }
